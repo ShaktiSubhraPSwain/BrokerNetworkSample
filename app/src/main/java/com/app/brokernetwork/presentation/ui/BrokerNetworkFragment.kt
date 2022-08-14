@@ -1,22 +1,18 @@
 package com.app.brokernetwork.presentation.ui
 
-import android.graphics.Insets
-import android.os.Build
 import android.os.Bundle
 import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.window.layout.WindowMetricsCalculator
 import com.app.brokernetwork.databinding.FragmentBrokerNetworkBinding
 import com.app.brokernetwork.domain.model.BrokerUiEntity
-import com.app.brokernetwork.presentation.adapter.BrokerMainAdapter
+import com.app.brokernetwork.presentation.ui.adapter.BrokerMainAdapter
 import com.app.brokernetwork.presentation.base.Resource
 import com.app.brokernetwork.presentation.base.SafeObserver
 import com.app.brokernetwork.presentation.base.State
 import com.app.brokernetwork.presentation.viewmodel.BrokerNetworkViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import androidx.window.layout.WindowMetrics as WindowMetrics
 
 
 @AndroidEntryPoint

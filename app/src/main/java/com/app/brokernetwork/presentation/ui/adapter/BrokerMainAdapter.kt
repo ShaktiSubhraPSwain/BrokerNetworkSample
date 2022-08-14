@@ -1,4 +1,4 @@
-package com.app.brokernetwork.presentation.adapter
+package com.app.brokernetwork.presentation.ui.adapter
 
 import android.content.Context
 import android.graphics.Color
