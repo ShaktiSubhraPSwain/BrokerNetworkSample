@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/brokerNetworkFragment">
+
+    <fragment
+        android:id="@+id/brokerNetworkFragment"
+        android:name="com.app.brokernetwork.presentation.ui.BrokerNetworkFragment"
+        android:label="fragment_broker_network"
+        tools:layout="@layout/fragment_broker_network" />
+</navigation>
